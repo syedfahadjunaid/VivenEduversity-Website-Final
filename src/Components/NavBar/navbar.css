@@ -1,0 +1,149 @@
+.main-nav {
+  width: 90%;
+  height: 8vh;
+
+  justify-content: space-between;
+  padding: 5px 20px 5px 20px;
+
+  border-radius: 50px;
+
+  background-color: #fff;
+
+  box-shadow: 2px 2px 5px #afb6c5;
+
+  position: fixed;
+
+  top: 20px;
+
+  z-index: 11;
+}
+
+.active-link {
+  color: #0E52BF !important;
+}
+
+.main-nav-logo {
+  width: 150px;
+}
+
+.main-nav-logo img {
+  width: 80%;
+}
+
+.main-nav > ul {
+  width: 50%;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.main-nav > ul > li > a {
+  text-decoration: none;
+
+  color: var(--secondary-text-color);
+}
+
+/* .main-nav > a > button {
+  background: linear-gradient(
+    68deg,
+    var(--primary-highlight-color),
+    var(--secondary-highlight-color) 91.65%
+  );
+
+  font-weight: bold;
+
+  color: var(--primary-text-color);
+
+  padding: 5px 5px 5px 30px;
+  gap: 20px;
+
+  box-shadow: -2px 5px 10px rgba(0, 82, 255, 0.5),
+    2px 5px 10px rgba(47, 206, 255, 1);
+} */
+
+.main-nav > a > button,.app-primary-buttons-round {
+  background: linear-gradient(
+    68deg,
+    var(--primary-highlight-color),
+    var(--secondary-highlight-color) 91.65%
+  ) !important;
+
+  font-weight: bold;
+
+  color: var(--primary-text-color) !important;
+
+  padding: 5px 5px 5px 28px !important;
+  gap: 20px !important;
+
+  box-shadow: -2px 5px 10px rgba(0, 82, 255, 0.5),
+    2px 5px 10px rgba(47, 206, 255, 1) !important;
+}
+
+.programDropdown {
+  position: absolute;
+  top: 19px;
+  padding-top: 3rem;
+  
+width: 100%;
+  /* left: 50%;
+  right: 50%; */
+}
+.programDropdown-main {
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.05);
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 400px;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.programDropdown-main > div {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  /* width: 100%; */
+  gap: 10px;
+  cursor: pointer;
+}
+.programDropdown-main > div:hover > p {
+  color: blue;
+}
+.programDropdown-main > div > p {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 12px;
+}
+.main-nav-programs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

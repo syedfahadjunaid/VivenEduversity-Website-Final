@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+  .small-cards {
+    padding-bottom: 60px !important;
+  }
+}
+
+.small-cards {
+  width: 20vw;
+  height: 30vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  flex-direction: column;
+
+  padding-bottom: 6%;
+
+  color: #fff;
+
+  gap: 5%;
+}
+
+/* .small-cards-icon-container {
+  width: 100%;
+
+  background-color: aqua;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+
+.small-cards > h3 {
+  font-size: 2rem;
+}
+
+.small-cards > span {
+  font-size: 1.2rem;
+}
+
+.small-cards > svg {
+  width: 25%;
+
+  display: flex;
+  justify-self: flex-start;
+  align-self: flex-start;
+
+  padding-left: 5%;
+}
+
+.animated-number {
+  animation: swell 0.5s ease-in-out alternate infinite;
+}
+
+@keyframes swell {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

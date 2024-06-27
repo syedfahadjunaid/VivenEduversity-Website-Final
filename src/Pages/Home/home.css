@@ -1,0 +1,254 @@
+@media screen and (max-width: 768px) {
+  .home-special-img-section > img {
+    width: 90% !important;
+  }
+  .home-special-section {
+    padding: 20px 0px 20px 0px;
+    width: 100% !important;
+
+    background-image: none !important;
+    background-color: var(--primary-color-2);
+  }
+
+  .home-special-img-section {
+    width: 90% !important;
+    min-height: auto !important;
+  }
+
+  .home-special-text-section > p {
+    width: 100% !important;
+  }
+
+  .home-contact-section {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .home-partners-section {
+    width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .home-contact-section {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .home-section {
+    width: 100% !important;
+  }
+}
+
+.home-marquee-section {
+  width: 100%;
+  height: 10vh;
+
+  background-position: center;
+  background-size: cover;
+
+  overflow: hidden;
+  /* white-space: nowrap; */
+  /* width: 100%; */
+}
+
+.home-marquee-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+
+  /* animation: marqueeAnimation 40s linear infinite; */
+}
+
+/* @keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+.home-marquee-main span {
+  font-size: 2rem;
+
+  font-weight: bold;
+
+  color: var(--secondary-highlight-color-2);
+
+  margin-right: 30px;
+}
+
+.home-marquee-dark-text {
+  color: var(--highlight-color-3) !important;
+}
+
+.home-special-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  min-height: 60vh;
+
+  border-radius: 20px;
+  border: none;
+
+  justify-content: space-around;
+
+  padding-bottom: 6vh;
+}
+
+.home-special-img-section {
+  width: 40%;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  min-height: 70vh;
+}
+
+.home-special-img-section > img {
+  width: 25vw;
+}
+
+.home-special-text-section {
+  width: 50%;
+  height: 90%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  text-align: left;
+  color: #fff;
+
+  gap: 20px;
+
+  font-size: 1.2rem;
+}
+
+.home-special-text-section > p {
+  width: 90%;
+
+  line-height: 2rem;
+}
+
+.home-cards-container {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-programme-highlights {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  margin-top: 50px;
+
+  gap: 40px;
+}
+
+.swiper-highlights {
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.swiper-highlights .swiper-slide {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.home-programme-highlights > h2 {
+  font-size: 2rem;
+
+  color: var(--primary-text-heading);
+}
+
+.home-contact-section {
+  margin-top: 100px;
+  width: 100%;
+  height: 90vh;
+
+  gap: 20px;
+
+  flex-direction: column;
+}
+
+.home-contact-section > h2 {
+  display: flex;
+  align-self: flex-start;
+
+  border: 1px solid #3d3d3d;
+
+  padding: 10px 20px 10px 20px;
+
+  border-radius: 40px;
+}
+
+.home-partners-section {
+  margin-top: 50px;
+  background-color: #edf9ff;
+  width: 100%;
+  min-height: 30vh;
+
+  overflow: hidden;
+}
+
+.home-section {
+  position: relative;
+}
+
+.home-enquire-top-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  position: fixed;
+  bottom: -50%;
+  right: 2%;
+  z-index: 3;
+
+  background: linear-gradient(
+    var(--secondary-highlight-color),
+    var(--primary-highlight-color)
+  );
+
+  color: #fff;
+
+  width: 60px;
+  height: 60px;
+
+  padding: 5px;
+
+  border-radius: 50%;
+
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.5s ease-in-out;
+  gap: 1px;
+}
+
+.scroll-button-visible {
+  bottom: 5%;
+
+  transition: all 0.5s ease-in-out;
+}

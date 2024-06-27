@@ -1,0 +1,10 @@
+.bannerPage-container {
+  display: flex;
+  flex-direction: column;
+}
+.bannerPage-container img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 5px;
+}

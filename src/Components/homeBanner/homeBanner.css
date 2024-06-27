@@ -1,0 +1,167 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .home-banner {
+    height: 90vh !important;
+  }
+  .home-swiper-container {
+    align-items: flex-start !important;
+  }
+
+  .home-swiper-container > h2 {
+    width: 95% !important;
+    padding-top: 50px;
+  }
+
+  .home-banner-form-section {
+    width: 90% !important;
+
+    height: 75% !important;
+    top: 20% !important;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .home-banner {
+    height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-swiper-container > h2 {
+    font-size: 2rem !important;
+
+    width: 90% !important;
+
+    text-align: left;
+  }
+
+  .home-swiper-container {
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 10px !important;
+
+    color: #fff;
+  }
+
+  .home-banner {
+    height: auto !important;
+  }
+
+  .home-swiper-container {
+    height: 50vh !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .home-marquee-section {
+    margin-top: 50px;
+  }
+  .home-banner-form-section {
+    position: relative !important;
+    width: 90% !important;
+    height: auto !important;
+  }
+}
+
+.home-banner {
+  padding-top: 2rem;
+
+  width: 100%;
+  height: 80vh;
+
+  position: relative;
+  object-fit: contain;
+}
+
+.home-banner > .banner-box-top {
+  width: 90%;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+
+  z-index: 1;
+}
+
+.mySwiper {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 40px;
+}
+
+.home-banner > .mySwiper > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+
+.home-swiper-container {
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 100%;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-left: 50px;
+
+  color: #fff;
+}
+
+.home-swiper-container > h2 {
+  font-size: 2.5rem;
+
+  width: 40%;
+
+  text-align: left;
+}
+
+.home-swiper-container > button {
+  background-color: var(--primary-buttons-color);
+
+  color: #fff;
+
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.home-banner-form-section {
+  position: absolute;
+
+  top: 10%;
+  right: 3%;
+
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  gap: 5%;
+
+  width: 40%;
+  height: 75%;
+
+  background-color: #fff;
+
+  padding: 1%;
+
+  border-radius: 25px;
+}
+
+.home-banner-form-section > h2 {
+  color: var(--primary-text-heading);
+}
+
+.home-banner-form {
+  height: 80%;
+  width: 90%;
+}

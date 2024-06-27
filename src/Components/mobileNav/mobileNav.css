@@ -1,0 +1,145 @@
+/* MobileNav.css */
+
+.mobile-nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  top: 10px;
+  left: 2vw;
+
+  position: fixed;
+  z-index: 11111;
+
+  background-color: #fff;
+
+  width: 90%;
+
+  padding: 0px 10px 0px 10px;
+
+  border-radius: 8px;
+}
+
+.mobile-nav-main > a > img {
+  width: 100px;
+}
+
+.mobile-nav-container {
+  position: absolute;
+  top: 0;
+  right: -80vw; /* Initially off-screen */
+  width: 60vw;
+  height: 100vh;
+  background-color: var(--primary-color-1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  transition: right 0.3s ease;
+
+  border-radius: 8px;
+}
+
+.mobile-nav-container.open {
+  right: -10vw;
+}
+
+.mobile-nav-main .burger-icon {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .bar {
+  width: 30px;
+  height: 3px;
+  background-color: rgb(255, 124, 124);
+  margin: 6px 0;
+  transition: transform 0.3s ease;
+}
+
+.burger-icon.cross .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-icon.cross .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-icon.cross .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
+} */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding-left: 10px;
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+
+  text-align: left;
+}
+
+.menu a:hover {
+  color: #ffcc00;
+}
+.menu > p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+  padding-top: 1rem;
+  text-align: left;
+} 
+
+.mobile-nav-btn {
+  background: linear-gradient(
+    68deg,
+    var(--primary-highlight-color),
+    var(--secondary-highlight-color) 91.65%
+  );
+
+  font-weight: bold;
+
+  color: var(--primary-text-color);
+
+  padding: 5px 5px 5px 30px;
+  gap: 20px;
+
+  box-shadow: -2px 5px 10px rgba(0, 82, 255, 0.5),
+    2px 5px 10px rgba(47, 206, 255, 1);
+}
+
+.fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

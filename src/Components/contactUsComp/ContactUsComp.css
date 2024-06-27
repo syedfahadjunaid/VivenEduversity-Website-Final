@@ -1,0 +1,40 @@
+.contactus-comp {
+    height: 100vh;
+    border-radius: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.contactus-comp-bg-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.contactus-comp-bg {
+    height: 100%;
+    width: 30%;
+    background-color: #083A44;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.contactus-comp-bg-main-content {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.contactus-comp-bg-main-content-left {
+    width: 40%;
+}
+
+.contactus-comp-bg-main-content-img {
+    width: 300px;
+    height: 400px;
+}

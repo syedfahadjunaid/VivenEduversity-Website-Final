@@ -1,0 +1,176 @@
+:root {
+  --primary-color-1: #155864;
+
+  --primary-color-2: #093a44;
+
+  --secondary-color-1: #083a44;
+
+  --primary-white: #ffffff;
+
+  --primary-highlight-color: #0052ff;
+
+  --secondary-highlight-color: #2fceff;
+
+  --secondary-highlight-color-2: #269eff;
+
+  --highlight-color-3: #102d5b;
+
+  --primary-buttons-color: #155864;
+
+  --secondary-buttons-color: #0c8e9b;
+
+  --primary-text-color: #ffffff;
+
+  --secondary-text-color: #3d3d3d;
+
+  --primary-text-heading: #3d3d3d;
+  --primary-text-para: #6d6d6d;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-container-flex-center {
+    flex-direction: column !important;
+    width: 90% !important;
+    height: auto !important;
+
+    gap: 20px !important;
+  }
+
+  .app-page-sections {
+    padding-top: 50px !important;
+  }
+
+  .app-page-sub-sections {
+    width: 100% !important;
+  }
+}
+
+input,
+textarea {
+  outline: none;
+
+  border: none;
+}
+
+.App {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 100%;
+
+  font-family: Rubik;
+}
+
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-text-heading);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-page-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.app-page-sub-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.app-primary-buttons-round {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 5px 30px 5px 30px;
+
+  border: none;
+  border-radius: 30px;
+
+  font-family: Rubik;
+}
+
+.app-secondary-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 10px;
+
+  padding: 10px 20px 10px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  font-family: Rubik;
+
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer !important;
+}

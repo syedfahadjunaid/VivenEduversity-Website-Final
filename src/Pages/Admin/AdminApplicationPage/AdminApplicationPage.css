@@ -1,0 +1,12 @@
+.modalData {
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.modalData-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}

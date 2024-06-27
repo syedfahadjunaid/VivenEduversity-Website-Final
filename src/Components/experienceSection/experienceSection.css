@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  .experience-section {
+    width: 100% !important;
+    height: 60vh !important;
+    padding: 30px 0px 30px 0px !important;
+  }
+  .experience-section > h2 {
+    font-size: 6vw !important;
+    text-align: center !important;
+  }
+
+  .experience-section > h3 {
+    font-size: 4vw !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .experience-cards-section {
+    margin-top: 20px !important;
+    gap: 30px;
+  }
+  .experience-cards-extra-container {
+    align-items: center !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+
+  .experience-details-container {
+    width: auto !important;
+    /* gap: 5px !important; */
+
+    justify-content: space-between !important;
+  }
+
+  .experience-details-container > h4 {
+    font-size: 0.8rem !important;
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .experience-section {
+    height: 100vh !important;
+  }
+}
+
+.experience-section {
+  overflow-x: hidden;
+  margin-top: 50px;
+
+  width: 100%;
+  height: 80vh;
+
+  background: url("../../Assets/Home/homeExpBgLines.jpeg");
+
+  border-radius: 8px;
+
+  flex-direction: column;
+  gap: 30px;
+
+  padding: 30px 30px 30px 30px;
+  justify-content: flex-start;
+
+  color: var(--primary-white);
+}
+
+.experience-section > h2 {
+  font-size: 3rem;
+  display: flex;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.experience-section > h3 {
+  font-size: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+  width: 50%;
+  text-align: left;
+}
+
+.experience-cards-section {
+  gap: 100px;
+
+  flex-direction: column;
+}
+
+.experience-cards-main-container {
+  gap: 3vw;
+}
+
+.experience-cards-extra-container {
+  transition: all 0.5s ease-in-out;
+  align-self: flex-start;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 5vw;
+}
+
+.experience-details-container {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-details-container {
+  width: 30%;
+}
+
+.cards-fade-out {
+  opacity: 0;
+  transform: translateY(-50%);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.cards-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+
+  transition: all 0.5s ease-in-out;
+}
+
+.experience-cards-mobile-menu {
+  overflow-x: scroll;
+  width: 100% !important;
+}
+
+.experience-cards-mobile-menu > ul {
+  overflow-x: scroll;
+
+  padding-left: 900px;
+  justify-content: flex-start !important;
+
+  flex-direction: row !important;
+
+  list-style: none;
+
+  width: auto !important;
+}
+
+.experience-cards-mobile-menu > ul > li {
+  font-size: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  padding: 5px;
+}
+
+.active-exp-menu {
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+
+  font-weight: bold;
+}

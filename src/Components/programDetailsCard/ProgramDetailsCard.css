@@ -1,0 +1,25 @@
+.program-page-program-details-card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  width: 80%;
+  border: 1px dashed gray;
+  padding: 15px;
+  color: #3d3d3d;
+  height: 80%;
+  border-radius: 5px;
+  /* width: 75%; */
+}
+
+.program-page-program-details-card-box > img {
+  width: 40%;
+  margin-bottom: 15px;
+  color: #fff;
+}
+:hover.program-page-program-details-card-box {
+  background-color: #155864;
+  color: white;
+  transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+  .footer-cta-section {
+    padding: 50px 10px 50px 10px !important;
+  }
+
+  .footer-cta-section > h2 {
+    width: 90% !important;
+
+    font-size: 1.5rem !important;
+
+    color: var(--primary-white);
+  }
+}
+
+.footer-cta-section {
+  width: 100%;
+  height: 40vh;
+
+  background: url("../../Assets/Home/footerCtaBgImg.jpeg");
+
+  background-position: center;
+  background-size: cover;
+
+  margin-top: 100px;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.footer-cta-section > h2 {
+  width: 50%;
+
+  font-size: 2.2rem;
+
+  color: var(--primary-white);
+}
+
+.footer-cta-section > button {
+  background-color: var(--secondary-buttons-color);
+
+  padding: 5px 40px 5px 40px;
+
+  color: var(--primary-white);
+
+  font-weight: 600;
+
+  font-size: 1.2rem;
+}

@@ -1,0 +1,10 @@
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.breadcrumb > a > h3 {
+  color: #4f4f4f;
+}
